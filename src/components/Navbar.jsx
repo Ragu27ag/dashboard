@@ -230,9 +230,9 @@ const handleDash = () =>{
     <>
       <div>
 
-        <div style={{ height: '64px' }}><button style={{ height: '64px', width: '210px', background: 'none', border: 'none' }} onClick={handleDash} type="">SB ADMIN</button></div>
+        <div style={{ height: '64px' }}><button style={{ height: '64px', width: '210px', background: 'none', border: 'none',fontSize:'20px'}} onClick={handleDash} type="">SB ADMIN</button></div>
         <Divider variant='middle' />
-        <div style={{ height: '56px' }}><button style={{ height: '56px', width: '210px', background: 'none', border: 'none', textAlign: 'center' }} onClick={handleDash}>Dashboard</button></div>
+        <div style={{ height: '56px' }}><button style={{ height: '56px', width: '210px', background: 'none', border: 'none', textAlign: 'center',fontSize:'20px',cursor:'pointer' }} onClick={handleDash}>Dashboard</button></div>
         <Divider  variant='middle' />
         <div style={{ height: '15px' }}><p style={{ height: '15px', width: '210px', textAlign: 'start', fontSize: '10px',  }} type="">INTERFACE</p></div>
 
@@ -263,17 +263,13 @@ const handleDash = () =>{
               <div style={{backgroundColor: '#d7cdcd', borderRadius: '8px', width: '200px', marginLeft: '5px' }}>
 
                 <ListItemButton onClick ={handleButton}>
-                  <ListItemIcon >
-                    <InboxIcon />
-                  </ListItemIcon>
+                 
                   <ListItemText secondary='Buttons' />
 
                 </ListItemButton>
 
                 <ListItemButton  onClick ={handleCards}>
-                  <ListItemIcon >
-                    <InboxIcon />
-                  </ListItemIcon>
+               
                   <ListItemText secondary='Cards' />
 
                 </ListItemButton>
@@ -308,33 +304,25 @@ const handleDash = () =>{
               <div style={{  backgroundColor: '#d7cdcd', borderRadius: '8px', width: '200px', marginLeft: '5px' }}>
 
                 <ListItemButton >
-                  <ListItemIcon >
-                    <InboxIcon />
-                  </ListItemIcon>
+                 
                   <ListItemText secondary='Colors' />
 
                 </ListItemButton>
 
                 <ListItemButton  >
-                  <ListItemIcon >
-                    <InboxIcon />
-                  </ListItemIcon>
+                
                   <ListItemText secondary='Borders' />
 
                 </ListItemButton>
 
                 <ListItemButton >
-                  <ListItemIcon >
-                    <InboxIcon />
-                  </ListItemIcon>
+                
                   <ListItemText secondary='Animations' />
 
                 </ListItemButton>
 
                 <ListItemButton  >
-                  <ListItemIcon >
-                    <InboxIcon />
-                  </ListItemIcon>
+                 
                   <ListItemText secondary='Other' />
 
                 </ListItemButton>
